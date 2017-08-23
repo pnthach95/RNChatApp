@@ -30,6 +30,8 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+android
+ios
 
 # Optional npm cache directory
 .npm
