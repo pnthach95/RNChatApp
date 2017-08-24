@@ -36,7 +36,7 @@ export class Main extends Component{
       message:[]
     }
 
-    this.socket = io("http://10.238.239.12:3000", {jsonp: false});
+    this.socket = io("http://10.238.239.5:3000", {jsonp: false});
     this.socket.on('connect', function(){k=true});
     this.socket.on('loading', function(data){
       a.setState({
